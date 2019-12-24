@@ -1,12 +1,9 @@
 {
-  "homepage" :"https://eugenekoen.github.io/ejsapp",
   "name": "ejsapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -b master -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
