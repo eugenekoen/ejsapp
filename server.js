@@ -8,7 +8,7 @@ var app=express();
 app.use(bodyParser());
 app.use(cors());
 
-app.set('views', path.join(__dirname, 'views'));
+// app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response){
