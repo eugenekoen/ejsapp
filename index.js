@@ -12,15 +12,19 @@ app.use(cors());
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response){
-    response.render('index');
+    response.render('home');
 });
 
-app.get('/about', function(request, response){
-    response.render('about');
+app.get('/login', function(request, response){
+    response.render('login');
 });
 
-app.get('/contact', function(request, response){
-    response.render('contact');
+app.get('/register', function(request, response){
+    response.render('register');
+});
+
+app.get('/secrets', function(request, response){
+    response.render('secrets');
 });
 
 app.listen(3000, function(){
